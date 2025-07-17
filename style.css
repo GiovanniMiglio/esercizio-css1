@@ -1,0 +1,111 @@
+*{
+    
+}
+body{
+   font-family: "Roboto Condensed", sans-serif;
+   color: white;
+
+  
+}
+.conteiner{
+    width: 1080px;
+    margin: 0 auto;
+}
+div {
+    display: block;
+   }
+.group
+{display: grid;
+    width: 100px;
+    grid-column: repeat(3,minmax(0,1fr));
+      grid-template-columns: auto auto auto;
+       margin: 10px; 
+    
+}
+.articoli{
+    margin: 20px
+    
+    
+}
+.mainp{
+    background-image:url(https://aulab.it/build/assets/grid04-DH9I6gw7.webp);
+    
+}
+.black{
+    background-color: #0b0c14;
+}
+img{
+    height: 200px;
+    width: 350px;
+  border-radius: 10%;
+}
+h1,h3,.littletitle{
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+.littletitle,h5{
+     color: yellow;
+}
+.aulab{
+    height: auto;
+    width: auto;
+        vertical-align:middle;
+        object-fit: none;
+        padding-right: 100px;
+     
+}  
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    
+} 
+
+ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    list-style-type: none;
+    padding: 0px;
+  
+}
+a{
+    text-decoration: none;
+    color: white
+}
+.bannerl{
+    color: black;
+   display: inline;
+}
+li{
+    padding: 6px 12px;
+    
+}
+.littletitle{
+    font-size: small;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+h1{
+    font-size: 48px;
+    margin-top: 10px;
+}
+#banner{
+    background-color: yellow;
+    border-radius: 10%;
+    color: rgb(0, 0, 0);
+    
+}   
+.whatsappbanner{ 
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;  
+}
+.wh{
+      height: 30px;
+    width: 30px;
+        vertical-align: middle;
+}
+.lente{
+    height: 30px;
+    width: 30px;
+}
