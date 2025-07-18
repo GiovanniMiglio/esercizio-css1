@@ -17,7 +17,7 @@ div {
 .group
 {display: grid;
     width: 100px;
-    grid-column: repeat(3,minmax(0,1fr));
+    grid-column: repeat(3);
     grid-template-columns: auto auto auto;
     margin: 10px; 
     
