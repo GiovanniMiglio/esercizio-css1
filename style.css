@@ -14,7 +14,7 @@ div {
 .group
 {display: grid;
     width: 100px;
-    grid-column: repeat(3);
+    grid-column: repeat;
     grid-template-columns: auto auto auto;
     margin: 10px; 
     
@@ -177,13 +177,80 @@ a{
     border-radius: 3.40282e38px;
     
 }
+.toup{
+    appearance: none !important;
+    line-height: 33.99px !important;
+    height: 33.99px !important;
+    min-width: 33.99px !important;
+    padding: 0;
+    border: 0;
+    cursor: pointer !important;
+    font-weight: 700 !important;
+    font-size: 14px !important;
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, .15) !important;
+    color: rgba(0, 0, 0, .65) !important;
+    background-color: #fff !important;
+    display: inline-block !important;
+    vertical-align: middle !important;
+    z-index: 2147483647 !important;
+    display: inline-block !important;
+    right: 0 !important;
+    bottom: 0 !important;
+    margin: 16px !important;
+    position: fixed !important;
+    background-image: url(https://aulab-hackademy.s3.eu-south-1.amazonaws.com/attachments/qWVDMqzBgLMA5fYE841IBmjHqUVL0AdJ6xzBR76L.png) !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    background-position:no-repeat !important;
+    
+}
+
 @media (max-width: 768px) {
     .conteiner{
-        width: 95%; 
+        
+        max-width:100%;
+        width: 100%; 
         padding: 10px;
+        margin: 0%;
+        
+    }
+    main{
+        width: 90%;
+        min-width: 90%;
     }
     .group{
-        grid-column: repeat(2);
-        grid-template-columns: auto auto;
+        
+        grid-column: 1;
+        grid-template-columns: auto ;
+    }
+    ul{
+        display: grid;
+        
+        grid-template-columns: auto auto ;
+        width:10%;
+        max-width: 10%;
+    }
+    li{
+        font-size: 10px;
+    }
+    .workwu{
+        font-size:8px;
+    }
+    nav{
+        max-width: 50%;
+        width: 50%;
+    }
+    
+    section{
+        max-width: 80vw;
+        margin: 20px;
+        height: 300px;
+    }
+    .aulabdocent{
+        display: none;
+    }
+    ul{
+        font-size: 12px;
+        max-width: 25vw;
     }
 }
